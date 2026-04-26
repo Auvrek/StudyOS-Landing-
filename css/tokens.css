@@ -6,9 +6,9 @@
 :root {
 
   /* ─── BACKGROUNDS ──────────────────────────────────────────── */
-  --bg:          #F9F8F6;   /* Fondo principal — blanco cálido (SONIC-style) */
-  --bg-alt:      #F0EFEC;   /* Variante sección alternada — gris muy suave */
-  --surface:     #E8E7E3;   /* Superficies / cards */
+  --bg:          #FFFFFF;   /* Fondo principal — blanco puro */
+  --bg-alt:      #F5F5F5;   /* Variante sección alternada */
+  --surface:     #EFEFEF;   /* Superficies / cards */
   --surface-2:   #FFFFFF;   /* Cards elevadas, modales */
   --dark:        #111111;   /* Footer y fondos oscuros */
   --white:       #FFFFFF;
@@ -26,13 +26,13 @@
   --lavender-bg:     #ECEAF8;   /* Fondo sección features */
 
   /* ─── BORDERS ──────────────────────────────────────────────── */
-  --border:        #DDDBD7;   /* Borde sutil claro */
-  --border-strong: #B8B5B0;   /* Borde marcado claro */
+  --border:        #E5E5E5;   /* Borde sutil claro */
+  --border-strong: #CCCCCC;   /* Borde marcado claro */
 
   /* ─── TEXT ─────────────────────────────────────────────────── */
   --text:   #111111;   /* Texto principal — near-black */
-  --text-2: #4A4845;   /* Texto secundario */
-  --text-3: #8A8885;   /* Texto terciario, labels, placeholders */
+  --text-2: #666666;   /* Texto secundario */
+  --text-3: #999999;   /* Texto terciario, labels, placeholders */
 
   /* ─── FUNCTIONAL ─────────────────────────────────────────── */
   --success: #3DAA6E;

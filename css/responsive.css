@@ -12,8 +12,15 @@
   .btn-nav-ghost { display: none; }
   .nav-hamburger { display: flex; }
 
-  /* Hero: ya es flex-col centrado, solo ajustar illustration */
-  .hero__illustration { max-width: 480px; }
+  /* Hero: stack vertical */
+  .hero .container {
+    grid-template-columns: 1fr;
+    gap: var(--sp-10);
+  }
+  .hero__content { align-items: center; text-align: center; }
+  .hero__subtitle { max-width: 100%; }
+  .hero__actions { justify-content: center; }
+  .hero__illustration { max-width: 480px; margin-inline: auto; }
 
   /* Features: 2 columns */
   .features-grid { grid-template-columns: repeat(2, 1fr); }
@@ -63,8 +70,21 @@
   .container { padding-inline: var(--sp-5); }
 
   /* Section header */
-  .section-header { margin-bottom: var(--sp-8); }
-  .section-header p { font-size: var(--fs-base); }
+  .section-header {
+    grid-template-columns: 1fr;
+    margin-bottom: var(--sp-8);
+  }
+  .section-header .label { grid-row: auto; }
+  .section-header h2 { grid-row: auto; }
+  .section-header p {
+    grid-column: 1;
+    grid-row: auto;
+    text-align: left;
+    padding-top: var(--sp-3);
+  }
+
+  /* CTA band */
+  .cta-band .container { grid-template-columns: 1fr; gap: var(--sp-8); }
 
   /* Hero */
   .hero {
