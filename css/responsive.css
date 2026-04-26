@@ -12,21 +12,8 @@
   .btn-nav-ghost { display: none; }
   .nav-hamburger { display: flex; }
 
-  /* Hero: stack vertical */
-  .hero .container {
-    grid-template-columns: 1fr;
-    text-align: center;
-    gap: var(--sp-10);
-  }
-
-  .hero__subtitle { max-width: 100%; }
-
-  .hero__actions { justify-content: center; }
-
-  .hero__illustration {
-    margin-inline: auto;
-    max-width: 380px;
-  }
+  /* Hero: ya es flex-col centrado, solo ajustar illustration */
+  .hero__illustration { max-width: 480px; }
 
   /* Features: 2 columns */
   .features-grid { grid-template-columns: repeat(2, 1fr); }
