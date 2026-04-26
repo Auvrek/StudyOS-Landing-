@@ -1,0 +1,24 @@
+<svg viewBox="0 0 280 200" fill="none" xmlns="http://www.w3.org/2000/svg" width="280" height="200">
+  <!-- PDF Upload illustration -->
+  <!-- Background card -->
+  <rect x="20" y="20" width="240" height="160" rx="12" fill="#F2F3F5"/>
+  <!-- PDF file stack -->
+  <rect x="50" y="80" width="70" height="88" rx="6" fill="#DCDFE3" transform="rotate(-6 50 80)"/>
+  <rect x="55" y="75" width="70" height="88" rx="6" fill="#E8EAED" transform="rotate(-2 55 75)"/>
+  <rect x="60" y="70" width="70" height="88" rx="6" fill="white" stroke="#C5A24A" stroke-width="1.5"/>
+  <!-- PDF label -->
+  <rect x="67" y="82" width="24" height="12" rx="3" fill="#C5A24A"/>
+  <text x="79" y="92" font-family="'Rethink Sans',sans-serif" font-size="7" fill="white" font-weight="700" text-anchor="middle">PDF</text>
+  <!-- Lines on doc -->
+  <rect x="67" y="102" width="48" height="3" rx="1.5" fill="#DCDFE3"/>
+  <rect x="67" y="110" width="40" height="3" rx="1.5" fill="#DCDFE3"/>
+  <rect x="67" y="118" width="44" height="3" rx="1.5" fill="#DCDFE3"/>
+  <rect x="67" y="126" width="32" height="3" rx="1.5" fill="#DCDFE3"/>
+  <!-- Upload arrow -->
+  <circle cx="168" cy="110" r="28" fill="#ECEAF8"/>
+  <path d="M168 125v-30M158 105l10-10 10 10" stroke="#9B8FD4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Sparkle -->
+  <circle cx="210" cy="50" r="4" fill="#C5A24A" opacity="0.5"/>
+  <circle cx="60" cy="40" r="3" fill="#9B8FD4" opacity="0.4"/>
+  <circle cx="230" cy="160" r="5" fill="#C5A24A" opacity="0.3"/>
+</svg>

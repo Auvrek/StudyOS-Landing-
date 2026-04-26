@@ -1,0 +1,17 @@
+<svg viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg" width="160" height="160">
+  <!-- Step 1: Upload your PDFs -->
+  <circle cx="80" cy="80" r="72" fill="#ECEAF8"/>
+  <!-- Cloud upload -->
+  <rect x="46" y="72" width="68" height="52" rx="6" fill="white" stroke="#9B8FD4" stroke-width="1.5"/>
+  <!-- PDF icon inside -->
+  <rect x="58" y="84" width="20" height="28" rx="3" fill="#9B8FD4" opacity="0.3"/>
+  <rect x="60" y="87" width="14" height="2.5" rx="1" fill="#9B8FD4"/>
+  <rect x="60" y="92" width="10" height="2.5" rx="1" fill="#9B8FD4"/>
+  <rect x="60" y="97" width="12" height="2.5" rx="1" fill="#9B8FD4"/>
+  <!-- Upload arrow -->
+  <circle cx="96" cy="98" r="14" fill="#9B8FD4" opacity="0.15"/>
+  <path d="M96 107v-18M90 95l6-6 6 6" stroke="#9B8FD4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Step number -->
+  <circle cx="80" cy="44" r="16" fill="#9B8FD4"/>
+  <text x="80" y="49" font-family="'Rethink Sans',sans-serif" font-size="14" font-weight="800" fill="white" text-anchor="middle">1</text>
+</svg>

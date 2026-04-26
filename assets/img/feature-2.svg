@@ -1,0 +1,33 @@
+<svg viewBox="0 0 280 200" fill="none" xmlns="http://www.w3.org/2000/svg" width="280" height="200">
+  <!-- AI Study Plan illustration -->
+  <rect x="20" y="20" width="240" height="160" rx="12" fill="#F2F3F5"/>
+  <!-- Calendar/plan card -->
+  <rect x="35" y="40" width="210" height="120" rx="8" fill="white" stroke="#E8EAED" stroke-width="1"/>
+  <!-- Header bar -->
+  <rect x="35" y="40" width="210" height="28" rx="8" fill="#111111"/>
+  <rect x="35" y="56" width="210" height="12" fill="#111111"/>
+  <text x="140" y="59" font-family="'Rethink Sans',sans-serif" font-size="9" fill="white" font-weight="600" text-anchor="middle">PLAN DE ESTUDIO — 3 SEMANAS</text>
+  <!-- Week rows -->
+  <!-- Week 1 -->
+  <rect x="46" y="78" width="38" height="22" rx="4" fill="#ECEAF8"/>
+  <text x="65" y="93" font-family="'Rethink Sans',sans-serif" font-size="8" fill="#9B8FD4" font-weight="600" text-anchor="middle">SEM 1</text>
+  <rect x="92" y="82" width="55" height="5" rx="2" fill="#DCDFE3"/>
+  <rect x="92" y="91" width="40" height="5" rx="2" fill="#DCDFE3"/>
+  <rect x="155" y="82" width="40" height="5" rx="2" fill="#C5A24A" opacity="0.4"/>
+  <rect x="155" y="91" width="30" height="5" rx="2" fill="#C5A24A" opacity="0.3"/>
+  <circle cx="210" cy="89" r="7" fill="#C5A24A" opacity="0.2"/>
+  <path d="M206 89l2.5 2.5L214 86" stroke="#C5A24A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Week 2 -->
+  <rect x="46" y="107" width="38" height="22" rx="4" fill="#ECEAF8"/>
+  <text x="65" y="122" font-family="'Rethink Sans',sans-serif" font-size="8" fill="#9B8FD4" font-weight="600" text-anchor="middle">SEM 2</text>
+  <rect x="92" y="111" width="55" height="5" rx="2" fill="#DCDFE3"/>
+  <rect x="92" y="120" width="48" height="5" rx="2" fill="#DCDFE3"/>
+  <rect x="155" y="111" width="50" height="5" rx="2" fill="#9B8FD4" opacity="0.3"/>
+  <rect x="155" y="120" width="35" height="5" rx="2" fill="#9B8FD4" opacity="0.2"/>
+  <!-- Week 3 -->
+  <rect x="46" y="136" width="38" height="18" rx="4" fill="#F5EDD6"/>
+  <text x="65" y="149" font-family="'Rethink Sans',sans-serif" font-size="8" fill="#A08330" font-weight="600" text-anchor="middle">SEM 3</text>
+  <rect x="92" y="139" width="55" height="5" rx="2" fill="#DCDFE3"/>
+  <rect x="92" y="148" width="30" height="5" rx="2" fill="#DCDFE3"/>
+  <rect x="155" y="139" width="62" height="5" rx="2" fill="#C5A24A" opacity="0.2"/>
+</svg>

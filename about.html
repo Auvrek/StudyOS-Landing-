@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre StudyOS</title>
+  <meta name="description" content="Somos un equipo que creyó que preparar exámenes universitarios podía ser menos caótico.">
+  <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400;500;600;700;800&family=Instrument+Serif:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/sections.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script>window.__STUDYOS_PAGE__ = 'about';</script>
+</head>
+<body>
+
+<header class="site-header"><div class="container"><a href="/" class="site-logo">StudyOS</a><nav class="nav-links"><a href="index.html#features" data-i18n="nav.features">Características</a><a href="pricing.html" data-i18n="nav.pricing">Precios</a><a href="credits.html" data-i18n="nav.credits">Créditos</a><a href="about.html" data-i18n="nav.about">Sobre nosotros</a></nav><div class="nav-actions"><div class="lang-selector"><select data-lang-selector><option value="es">ES</option><option value="en">EN</option><option value="de">DE</option><option value="et">ET</option></select></div><a href="/login" class="btn btn-nav-ghost" data-i18n="nav.login">Iniciar sesión</a><a href="pricing.html#trial" class="btn btn-nav" data-i18n="nav.cta">Empezar gratis</a></div><button class="nav-hamburger" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button></div></header>
+<div class="nav-drawer" id="nav-drawer"><div class="nav-drawer__backdrop"></div><div class="nav-drawer__panel"><button class="nav-drawer__close btn"><img src="assets/icons/close.svg" width="16" height="16" alt=""></button><nav class="nav-drawer__links"><a href="index.html">Inicio</a><a href="pricing.html" data-i18n="nav.pricing">Precios</a><a href="about.html" data-i18n="nav.about">Sobre nosotros</a><a href="contact.html" data-i18n="nav.faq">Contacto</a></nav><div style="display:flex;flex-direction:column;gap:var(--sp-3)"><a href="pricing.html#trial" class="btn btn-primary" data-i18n="nav.cta">Empezar gratis</a></div></div></div>
+
+<main>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="label" data-i18n="about_page.hero_label">SOBRE NOSOTROS</span>
+    <h1>
+      <span data-i18n="about_page.hero_title">Estudiantes primero.</span><br>
+      <em data-i18n="about_page.hero_title_em">Siempre.</em>
+    </h1>
+    <p class="page-hero__subtitle" data-i18n="about_page.hero_subtitle">Creamos StudyOS porque vivimos el problema. Preparar un examen universitario no debería ser una carrera contra el caos.</p>
+  </div>
+</section>
+
+<!-- Historia -->
+<section style="background:var(--bg-alt);padding-block:var(--sp-20)">
+  <div class="container" style="max-width:720px">
+    <span class="label" style="display:block;margin-bottom:var(--sp-5)" data-i18n="about_page.story_label">POR QUÉ EXISTE STUDYOS</span>
+    <h2 style="font-family:var(--font-serif);font-weight:400;font-size:var(--fs-3xl);margin-bottom:var(--sp-6)" data-i18n="about_page.story_title">El problema que decidimos resolver</h2>
+    <p style="margin-bottom:var(--sp-5)" data-i18n="about_page.story_p1">En 2025, durante la época de finales, un estudiante de ingeniería en Viena tenía 6 materias, 40 PDFs, y 3 semanas. Lo de siempre: no sabía por dónde empezar.</p>
+    <p style="margin-bottom:var(--sp-5)" data-i18n="about_page.story_p2">Probó ChatGPT para hacer resúmenes sueltos. Funcionó, pero a medias. No había plan. No había estructura. No había seguimiento. Solo respuestas al azar cuando preguntaba bien.</p>
+    <p data-i18n="about_page.story_p3">Ahí nació StudyOS. No como un chatbot más, sino como un sistema operativo de estudio: un lugar donde subís tu material y salís con un plan claro, material de repaso generado, y una estructura que respeta cómo realmente funciona preparar un examen.</p>
+  </div>
+</section>
+
+<!-- Misión -->
+<section class="about-mission">
+  <div class="container" style="max-width:840px">
+    <span class="label" style="display:block;margin-bottom:var(--sp-5)" data-i18n="about_page.mission_label">MISIÓN</span>
+    <h2>
+      <span data-i18n="about_page.mission_title">Democratizar la preparación de exámenes</span>
+      <em data-i18n="about_page.mission_title_em"> con inteligencia artificial.</em>
+    </h2>
+    <p style="font-size:var(--fs-lg);margin-top:var(--sp-5)" data-i18n="about_page.mission_desc">Que cualquier estudiante universitario, en cualquier país de Europa, con cualquier presupuesto, pueda preparar sus exámenes con la misma calidad que uno que tiene acceso a los mejores tutores.</p>
+  </div>
+</section>
+
+<!-- Stack -->
+<section style="background:var(--bg);padding-block:var(--sp-20)">
+  <div class="container">
+    <span class="label" style="display:block;margin-bottom:var(--sp-8)" data-i18n="about_page.stack_label">CÓMO LO CONSTRUIMOS</span>
+    <div class="about-stack-grid">
+      <div class="about-stack-card">
+        <h3 data-i18n="about_page.stack_1_title">IA responsable</h3>
+        <p data-i18n="about_page.stack_1_desc">Usamos Claude de Anthropic, un modelo diseñado con énfasis en la seguridad y la honestidad. Tu material no se usa para entrenar ningún modelo.</p>
+      </div>
+      <div class="about-stack-card">
+        <h3 data-i18n="about_page.stack_2_title">Privacidad primero</h3>
+        <p data-i18n="about_page.stack_2_desc">Servidores europeos, cumplimiento GDPR, datos encriptados en reposo y en tránsito. Podés eliminar todo en cualquier momento.</p>
+      </div>
+      <div class="about-stack-card">
+        <h3 data-i18n="about_page.stack_3_title">Empresa estona</h3>
+        <p data-i18n="about_page.stack_3_desc">StudyOS OÜ está registrada en Estonia bajo el marco de e-Residency. Regulación europea, transparencia total.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Equipo -->
+<section style="background:var(--bg-alt);padding-block:var(--sp-20)">
+  <div class="container">
+    <span class="label" style="display:block;margin-bottom:var(--sp-6)" data-i18n="about_page.team_label">EQUIPO</span>
+    <h2 style="font-family:var(--font-serif);font-weight:400;margin-bottom:var(--sp-8)" data-i18n="about_page.team_title">Quiénes somos</h2>
+    <div class="team-grid">
+      <div class="team-card">
+        <div class="team-avatar" aria-hidden="true">
+          <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="40" cy="30" r="15" fill="#9B8FD4" opacity="0.4"/>
+            <path d="M10 72c0-16.6 13.4-30 30-30s30 13.4 30 30" fill="#9B8FD4" opacity="0.2"/>
+          </svg>
+        </div>
+        <p class="team-name" data-i18n="about_page.m1_name">Juan M. Parra</p>
+        <p class="team-role" data-i18n="about_page.m1_role">Founder & Developer</p>
+      </div>
+      <div class="team-card" style="opacity:0.6">
+        <div class="team-avatar" aria-hidden="true">
+          <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="40" cy="40" r="30" fill="#C8CBD1" opacity="0.3"/>
+            <path d="M30 40h20M40 30v20" stroke="#A0A4AC" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <p class="team-name" data-i18n="about_page.m2_name">Pronto</p>
+        <p class="team-role" data-i18n="about_page.m2_role">¿Te sumás?</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section style="background:var(--lavender-bg);padding-block:var(--sp-16);text-align:center">
+  <div class="container" style="max-width:560px">
+    <h2 style="font-family:var(--font-serif);font-weight:400;margin-bottom:var(--sp-4)" data-i18n="about_page.cta_title">¿Tenés preguntas?</h2>
+    <p style="margin-bottom:var(--sp-6)" data-i18n="about_page.cta_desc">Estamos construyendo esto de forma abierta. Escribinos si querés saber más.</p>
+    <a href="contact.html" class="btn btn-dark btn-lg" data-i18n="about_page.cta_btn">Escribirnos</a>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer"><div class="container"><div class="footer-grid"><div class="footer-brand"><a href="/" class="site-logo">StudyOS</a><p data-i18n="footer.tagline">El sistema operativo de los que van a aprobar.</p></div><div class="footer-col"><h4 data-i18n="footer.col_product">Producto</h4><ul><li><a href="pricing.html" data-i18n="footer.pricing">Precios</a></li><li><a href="credits.html" data-i18n="footer.credits">Créditos</a></li></ul></div><div class="footer-col"><h4 data-i18n="footer.col_company">Empresa</h4><ul><li><a href="about.html" data-i18n="footer.about">Sobre nosotros</a></li><li><a href="contact.html" data-i18n="footer.contact">Contacto</a></li></ul></div><div class="footer-col"><h4 data-i18n="footer.col_legal">Legal</h4><ul><li><a href="privacy.html" data-i18n="footer.privacy">Privacidad</a></li><li><a href="terms.html" data-i18n="footer.terms">Términos</a></li><li><a href="imprint.html" data-i18n="footer.imprint">Impressum</a></li></ul></div></div><div class="footer-bottom"><p class="footer-copy" data-i18n="footer.copy">© 2026 StudyOS OÜ · Tallinn, Estonia</p></div></div></footer>
+
+<div class="cookie-banner" role="dialog" aria-live="polite"><p><span data-i18n="cookie_banner.text">Usamos cookies esenciales y, con tu consentimiento, analítica. Leé nuestra</span> <a href="cookies.html" data-i18n="cookie_banner.link">política de cookies</a>.</p><div class="cookie-banner__actions"><button class="btn btn-outline-light btn-sm" data-action="cookie-reject" data-i18n="cookie_banner.reject">Solo esenciales</button><button class="btn btn-white btn-sm" data-action="cookie-accept" data-i18n="cookie_banner.accept">Aceptar todo</button></div></div>
+
+<script src="js/i18n.js"></script><script src="js/nav.js"></script><script src="js/analytics.js"></script><script src="js/main.js"></script>
+</body>
+</html>

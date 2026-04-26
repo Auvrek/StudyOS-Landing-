@@ -1,0 +1,23 @@
+<svg viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg" width="160" height="160">
+  <!-- Step 3: Study and pass -->
+  <circle cx="80" cy="80" r="72" fill="#F2F3F5"/>
+  <!-- Trophy / success -->
+  <rect x="54" y="90" width="52" height="28" rx="4" fill="white" stroke="#C5A24A" stroke-width="1.5"/>
+  <!-- Trophy cup -->
+  <path d="M72 90 C72 76 88 76 88 90" fill="#C5A24A" opacity="0.2" stroke="#C5A24A" stroke-width="1.5"/>
+  <rect x="76" y="90" width="8" height="6" rx="0" fill="#C5A24A" opacity="0.4"/>
+  <rect x="70" y="96" width="20" height="4" rx="2" fill="#C5A24A" opacity="0.6"/>
+  <!-- Stars in card -->
+  <circle cx="66" cy="108" r="4" fill="#C5A24A"/>
+  <circle cx="80" cy="108" r="4" fill="#C5A24A"/>
+  <circle cx="94" cy="108" r="4" fill="#C5A24A"/>
+  <!-- Progress bar -->
+  <rect x="46" y="126" width="68" height="8" rx="4" fill="#DCDFE3"/>
+  <rect x="46" y="126" width="58" height="8" rx="4" fill="#9B8FD4"/>
+  <!-- Checkmark burst -->
+  <circle cx="80" cy="70" r="16" fill="#9B8FD4" opacity="0.15"/>
+  <path d="M72 70l5 5 10-10" stroke="#9B8FD4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Step number -->
+  <circle cx="80" cy="34" r="16" fill="#111111"/>
+  <text x="80" y="39" font-family="'Rethink Sans',sans-serif" font-size="14" font-weight="800" fill="white" text-anchor="middle">3</text>
+</svg>

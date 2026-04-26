@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 440" fill="none" role="img" aria-label="PDF transformándose en plan de estudio con IA">
+
+  <!-- Fondo sutil -->
+  <rect width="520" height="440" rx="24" fill="#E8EAED" opacity="0.4"/>
+
+  <!-- PDF documento — izquierda -->
+  <g transform="translate(30, 60)">
+    <rect width="140" height="180" rx="12" fill="#F2F3F5" stroke="#C8CBD1" stroke-width="1"/>
+    <rect x="12" y="16" width="80" height="8" rx="4" fill="#C8CBD1"/>
+    <rect x="12" y="32" width="116" height="4" rx="2" fill="#D8DADD"/>
+    <rect x="12" y="42" width="100" height="4" rx="2" fill="#D8DADD"/>
+    <rect x="12" y="52" width="116" height="4" rx="2" fill="#D8DADD"/>
+    <rect x="12" y="62" width="88" height="4" rx="2" fill="#D8DADD"/>
+    <rect x="12" y="80" width="116" height="4" rx="2" fill="#D8DADD"/>
+    <rect x="12" y="90" width="96" height="4" rx="2" fill="#D8DADD"/>
+    <rect x="12" y="100" width="116" height="4" rx="2" fill="#D8DADD"/>
+    <rect x="12" y="116" width="60" height="24" rx="6" fill="#C5A24A" opacity="0.15"/>
+    <text x="18" y="132" font-family="system-ui" font-size="9" fill="#A08330" font-weight="600">PDF</text>
+    <rect x="12" y="148" width="116" height="4" rx="2" fill="#D8DADD"/>
+    <rect x="12" y="158" width="80" height="4" rx="2" fill="#D8DADD"/>
+  </g>
+
+  <!-- Flecha / conector con IA -->
+  <g transform="translate(180, 195)">
+    <!-- Chip IA -->
+    <rect x="0" y="-16" width="72" height="32" rx="16" fill="#111111"/>
+    <text x="12" y="4" font-family="system-ui" font-size="11" fill="#C5A24A" font-weight="700" letter-spacing="0.5">✦ IA</text>
+    <!-- Flecha -->
+    <path d="M-20 0 H-6" stroke="#C8CBD1" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M72 0 H86" stroke="#C8CBD1" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M83 -4 L87 0 L83 4" stroke="#C8CBD1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Resultado — columna de cards derecha -->
+  <!-- Card 1: Resumen -->
+  <g transform="translate(276, 40)">
+    <rect width="210" height="80" rx="12" fill="#FFFFFF" stroke="#C8CBD1" stroke-width="1"/>
+    <rect x="12" y="14" width="6" height="6" rx="2" fill="#C5A24A"/>
+    <text x="24" y="20" font-family="system-ui" font-size="9" fill="#828791" font-weight="500" letter-spacing="0.8">RESUMEN</text>
+    <rect x="12" y="30" width="180" height="4" rx="2" fill="#D8DADD"/>
+    <rect x="12" y="40" width="160" height="4" rx="2" fill="#D8DADD"/>
+    <rect x="12" y="50" width="186" height="4" rx="2" fill="#D8DADD"/>
+    <rect x="12" y="60" width="120" height="4" rx="2" fill="#D8DADD"/>
+  </g>
+
+  <!-- Card 2: Mindmap -->
+  <g transform="translate(276, 136)">
+    <rect width="210" height="90" rx="12" fill="#FFFFFF" stroke="#C8CBD1" stroke-width="1"/>
+    <rect x="12" y="14" width="6" height="6" rx="2" fill="#9B8FD4"/>
+    <text x="24" y="20" font-family="system-ui" font-size="9" fill="#828791" font-weight="500" letter-spacing="0.8">MINDMAP</text>
+    <!-- Nodo central -->
+    <circle cx="105" cy="58" r="14" fill="#9B8FD4" opacity="0.12" stroke="#9B8FD4" stroke-width="1"/>
+    <circle cx="60" cy="40" r="8" fill="#C5A24A" opacity="0.15" stroke="#C5A24A" stroke-width="1"/>
+    <circle cx="60" cy="76" r="8" fill="#C5A24A" opacity="0.15" stroke="#C5A24A" stroke-width="1"/>
+    <circle cx="150" cy="40" r="8" fill="#C5A24A" opacity="0.15" stroke="#C5A24A" stroke-width="1"/>
+    <circle cx="150" cy="76" r="8" fill="#C5A24A" opacity="0.15" stroke="#C5A24A" stroke-width="1"/>
+    <path d="M91 52 L68 44" stroke="#C8CBD1" stroke-width="1"/>
+    <path d="M91 64 L68 72" stroke="#C8CBD1" stroke-width="1"/>
+    <path d="M119 52 L142 44" stroke="#C8CBD1" stroke-width="1"/>
+    <path d="M119 64 L142 72" stroke="#C8CBD1" stroke-width="1"/>
+  </g>
+
+  <!-- Card 3: Flashcards -->
+  <g transform="translate(276, 242)">
+    <rect width="210" height="70" rx="12" fill="#FFFFFF" stroke="#C8CBD1" stroke-width="1"/>
+    <rect x="12" y="14" width="6" height="6" rx="2" fill="#3DAA6E"/>
+    <text x="24" y="20" font-family="system-ui" font-size="9" fill="#828791" font-weight="500" letter-spacing="0.8">FLASHCARDS</text>
+    <rect x="12" y="32" width="88" height="28" rx="8" fill="#F2F3F5" stroke="#C8CBD1" stroke-width="1"/>
+    <rect x="110" y="32" width="88" height="28" rx="8" fill="#C5A24A" opacity="0.1" stroke="#C5A24A" stroke-width="1" opacity="0.4"/>
+    <rect x="20" y="43" width="72" height="4" rx="2" fill="#C8CBD1"/>
+    <rect x="118" y="43" width="72" height="4" rx="2" fill="#C5A24A" opacity="0.4"/>
+  </g>
+
+  <!-- Card 4: Plan de estudio -->
+  <g transform="translate(276, 328)">
+    <rect width="210" height="88" rx="12" fill="#111111"/>
+    <rect x="12" y="14" width="6" height="6" rx="2" fill="#C5A24A"/>
+    <text x="24" y="20" font-family="system-ui" font-size="9" fill="#C5A24A" font-weight="600" letter-spacing="0.8">PLAN DE ESTUDIO</text>
+    <!-- Días -->
+    <rect x="12" y="30" width="20" height="20" rx="4" fill="#C5A24A" opacity="0.15"/>
+    <rect x="38" y="30" width="20" height="20" rx="4" fill="#FFFFFF" opacity="0.06"/>
+    <rect x="64" y="30" width="20" height="20" rx="4" fill="#FFFFFF" opacity="0.06"/>
+    <rect x="90" y="30" width="20" height="20" rx="4" fill="#FFFFFF" opacity="0.06"/>
+    <rect x="116" y="30" width="20" height="20" rx="4" fill="#FFFFFF" opacity="0.06"/>
+    <rect x="142" y="30" width="20" height="20" rx="4" fill="#FFFFFF" opacity="0.06"/>
+    <rect x="168" y="30" width="20" height="20" rx="4" fill="#FFFFFF" opacity="0.06"/>
+    <text x="18" y="44" font-family="system-ui" font-size="9" fill="#C5A24A" font-weight="700">L</text>
+    <text x="44" y="44" font-family="system-ui" font-size="9" fill="white" opacity="0.4">M</text>
+    <text x="70" y="44" font-family="system-ui" font-size="9" fill="white" opacity="0.4">X</text>
+    <text x="96" y="44" font-family="system-ui" font-size="9" fill="white" opacity="0.4">J</text>
+    <text x="122" y="44" font-family="system-ui" font-size="9" fill="white" opacity="0.4">V</text>
+    <text x="148" y="44" font-family="system-ui" font-size="9" fill="white" opacity="0.4">S</text>
+    <text x="174" y="44" font-family="system-ui" font-size="9" fill="white" opacity="0.4">D</text>
+    <!-- Progreso -->
+    <rect x="12" y="60" width="186" height="4" rx="2" fill="#FFFFFF" opacity="0.08"/>
+    <rect x="12" y="60" width="70" height="4" rx="2" fill="#C5A24A"/>
+    <text x="12" y="78" font-family="system-ui" font-size="8" fill="white" opacity="0.45">5 días completados de 21</text>
+  </g>
+
+</svg>

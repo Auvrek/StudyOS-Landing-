@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 — StudyOS</title>
+  <meta name="description" content="Esta página se fue a estudiar.">
+  <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400;500;600;700;800&family=Instrument+Serif:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/sections.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script>window.__STUDYOS_PAGE__ = '404';</script>
+</head>
+<body>
+
+<header class="site-header"><div class="container"><a href="/" class="site-logo">StudyOS</a><nav class="nav-links"><a href="index.html#features" data-i18n="nav.features">Características</a><a href="pricing.html" data-i18n="nav.pricing">Precios</a><a href="about.html" data-i18n="nav.about">Sobre nosotros</a><a href="contact.html" data-i18n="nav.faq">Contacto</a></nav><div class="nav-actions"><div class="lang-selector"><select data-lang-selector><option value="es">ES</option><option value="en">EN</option><option value="de">DE</option><option value="et">ET</option></select></div><a href="/login" class="btn btn-nav-ghost" data-i18n="nav.login">Iniciar sesión</a><a href="pricing.html#trial" class="btn btn-nav" data-i18n="nav.cta">Empezar gratis</a></div><button class="nav-hamburger" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button></div></header>
+<div class="nav-drawer" id="nav-drawer"><div class="nav-drawer__backdrop"></div><div class="nav-drawer__panel"><button class="nav-drawer__close btn"><img src="assets/icons/close.svg" width="16" height="16" alt=""></button><nav class="nav-drawer__links"><a href="index.html">Inicio</a><a href="pricing.html" data-i18n="nav.pricing">Precios</a><a href="about.html" data-i18n="nav.about">Sobre nosotros</a><a href="contact.html" data-i18n="nav.faq">Contacto</a></nav><div style="display:flex;flex-direction:column;gap:var(--sp-3)"><a href="pricing.html#trial" class="btn btn-primary" data-i18n="nav.cta">Empezar gratis</a></div></div></div>
+
+<main>
+
+<section class="error-page">
+  <div class="container">
+    <div class="error-page__inner">
+      <div class="error-page__number" aria-hidden="true">404</div>
+      <h1 data-i18n="404.title">Esta página se fue a estudiar.</h1>
+      <p data-i18n="404.subtitle">Y parece que no vuelve. Probablemente estés buscando algo que se movió o que nunca existió.</p>
+      <a href="index.html" class="btn btn-primary btn-lg" data-i18n="404.cta">Volver al inicio</a>
+
+      <div class="error-page__illustration" aria-hidden="true">
+        <svg viewBox="0 0 320 200" fill="none" xmlns="http://www.w3.org/2000/svg" width="320" height="200">
+          <!-- Open book -->
+          <rect x="60" y="60" width="90" height="110" rx="4" fill="var(--surface-2)" stroke="var(--accent)" stroke-width="2"/>
+          <rect x="170" y="60" width="90" height="110" rx="4" fill="var(--surface-2)" stroke="var(--accent)" stroke-width="2"/>
+          <!-- Spine -->
+          <rect x="148" y="58" width="24" height="114" rx="2" fill="var(--accent-light)"/>
+          <!-- Lines on left page -->
+          <rect x="72" y="82" width="66" height="4" rx="2" fill="var(--bg)"/>
+          <rect x="72" y="94" width="50" height="4" rx="2" fill="var(--bg)"/>
+          <rect x="72" y="106" width="60" height="4" rx="2" fill="var(--bg)"/>
+          <rect x="72" y="118" width="44" height="4" rx="2" fill="var(--bg)"/>
+          <rect x="72" y="130" width="54" height="4" rx="2" fill="var(--bg)"/>
+          <!-- Lines on right page -->
+          <rect x="178" y="82" width="66" height="4" rx="2" fill="var(--bg)"/>
+          <rect x="178" y="94" width="50" height="4" rx="2" fill="var(--bg)"/>
+          <rect x="178" y="106" width="60" height="4" rx="2" fill="var(--bg)"/>
+          <rect x="178" y="118" width="44" height="4" rx="2" fill="var(--bg)"/>
+          <!-- Question mark on right page -->
+          <text x="215" y="148" font-family="Georgia, serif" font-size="40" fill="var(--accent)" opacity="0.5" text-anchor="middle">?</text>
+          <!-- Stars -->
+          <circle cx="40" cy="50" r="3" fill="var(--lavender)" opacity="0.6"/>
+          <circle cx="280" cy="80" r="4" fill="var(--accent)" opacity="0.4"/>
+          <circle cx="30" cy="140" r="2" fill="var(--accent)" opacity="0.4"/>
+          <circle cx="290" cy="150" r="3" fill="var(--lavender)" opacity="0.5"/>
+          <circle cx="155" cy="30" r="5" fill="var(--lavender)" opacity="0.3"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer"><div class="container"><div class="footer-grid"><div class="footer-brand"><a href="/" class="site-logo">StudyOS</a><p data-i18n="footer.tagline">El sistema operativo de los que van a aprobar.</p></div><div class="footer-col"><h4 data-i18n="footer.col_product">Producto</h4><ul><li><a href="pricing.html" data-i18n="footer.pricing">Precios</a></li><li><a href="credits.html" data-i18n="footer.credits">Créditos</a></li></ul></div><div class="footer-col"><h4 data-i18n="footer.col_company">Empresa</h4><ul><li><a href="about.html" data-i18n="footer.about">Sobre nosotros</a></li><li><a href="contact.html" data-i18n="footer.contact">Contacto</a></li></ul></div><div class="footer-col"><h4 data-i18n="footer.col_legal">Legal</h4><ul><li><a href="privacy.html" data-i18n="footer.privacy">Privacidad</a></li><li><a href="terms.html" data-i18n="footer.terms">Términos</a></li><li><a href="imprint.html" data-i18n="footer.imprint">Impressum</a></li></ul></div></div><div class="footer-bottom"><p class="footer-copy" data-i18n="footer.copy">© 2026 StudyOS OÜ · Tallinn, Estonia</p></div></div></footer>
+
+<script src="js/i18n.js"></script><script src="js/nav.js"></script><script src="js/main.js"></script>
+</body>
+</html>

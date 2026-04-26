@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Precios — StudyOS</title>
+  <meta name="description" content="Planes desde €8/mes. Empezá gratis 7 días sin tarjeta de crédito.">
+  <meta property="og:title" content="Precios — StudyOS">
+  <meta property="og:description" content="Planes desde €8/mes. Empezá gratis 7 días, sin tarjeta.">
+  <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400;500;600;700;800&family=Instrument+Serif:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/sections.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script>window.__STUDYOS_PAGE__ = 'pricing';</script>
+</head>
+<body>
+
+<header class="site-header" role="banner">
+  <div class="container">
+    <a href="/" class="site-logo">StudyOS</a>
+    <nav class="nav-links">
+      <a href="index.html#features" data-i18n="nav.features">Características</a>
+      <a href="index.html#how-it-works" data-i18n="nav.how">Cómo funciona</a>
+      <a href="pricing.html" data-i18n="nav.pricing">Precios</a>
+      <a href="about.html" data-i18n="nav.about">Sobre nosotros</a>
+      <a href="index.html#faq" data-i18n="nav.faq">Preguntas</a>
+    </nav>
+    <div class="nav-actions">
+      <div class="lang-selector">
+        <select data-lang-selector aria-label="Idioma">
+          <option value="es">ES</option><option value="en">EN</option><option value="de">DE</option><option value="et">ET</option>
+        </select>
+      </div>
+      <a href="/login" class="btn btn-nav-ghost" data-i18n="nav.login">Iniciar sesión</a>
+      <a href="#trial" class="btn btn-nav" data-i18n="nav.cta">Empezar gratis</a>
+    </div>
+    <button class="nav-hamburger" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<div class="nav-drawer" id="nav-drawer"><div class="nav-drawer__backdrop"></div><div class="nav-drawer__panel"><button class="nav-drawer__close btn"><img src="assets/icons/close.svg" width="16" height="16" alt=""></button><nav class="nav-drawer__links"><a href="index.html" data-i18n="nav.features">Características</a><a href="pricing.html" data-i18n="nav.pricing">Precios</a><a href="credits.html" data-i18n="nav.credits">Créditos</a><a href="about.html" data-i18n="nav.about">Sobre nosotros</a><a href="contact.html" data-i18n="nav.faq">FAQ</a></nav><div style="display:flex;flex-direction:column;gap:var(--sp-3)"><a href="/login" class="btn btn-secondary" data-i18n="nav.login">Iniciar sesión</a><a href="#trial" class="btn btn-primary" data-i18n="nav.cta">Empezar gratis</a></div></div></div>
+
+<main>
+
+<!-- Hero -->
+<section class="page-hero" id="trial">
+  <div class="container">
+    <span class="label" data-i18n="pricing_page.hero_label">PLANES Y PRECIOS</span>
+    <h1>
+      <span data-i18n="pricing_page.hero_title">Precios honestos.</span><br>
+      <em data-i18n="pricing_page.hero_title_em">Sin sorpresas.</em>
+    </h1>
+    <p class="page-hero__subtitle" data-i18n="pricing_page.hero_subtitle">Empezá con 7 días gratis. Sin tarjeta. Cancelás cuando querás.</p>
+  </div>
+</section>
+
+<!-- Toggle mensual / anual -->
+<section style="background:var(--bg-alt);padding-block:var(--sp-10) 0">
+  <div class="container">
+    <div class="pricing-toggle-wrap">
+      <span class="pricing-toggle-label active" data-label="monthly" data-i18n="pricing_page.toggle_monthly">Mensual</span>
+      <label class="toggle-switch" aria-label="Cambiar ciclo de facturación">
+        <input type="checkbox" id="pricing-toggle">
+        <span class="toggle-slider"></span>
+      </label>
+      <span class="pricing-toggle-label" data-label="yearly">
+        <span data-i18n="pricing_page.toggle_yearly">Anual</span>
+        <span class="badge badge-accent" style="margin-left:var(--sp-2)" data-i18n="pricing_page.yearly_badge">Ahorrá 20%</span>
+      </span>
+    </div>
+  </div>
+</section>
+
+<!-- Cards de planes -->
+<section style="background:var(--bg-alt);padding-block:var(--sp-8) var(--sp-20)">
+  <div class="container">
+    <div class="pricing-cards-grid grid-4">
+
+      <!-- Trial -->
+      <div class="pricing-card">
+        <p class="pricing-card__name" data-i18n="plans.trial_name">Free Trial</p>
+        <div class="pricing-card__price">
+          <span class="pricing-card__amount" data-i18n="plans.trial_price">€0</span>
+          <span class="pricing-card__period" data-i18n="plans.trial_period">7 días</span>
+        </div>
+        <p class="pricing-card__desc" data-i18n="plans.trial_desc">Para conocer la plataforma sin comprometerte.</p>
+        <ul class="pricing-card__features">
+          <li class="feature-item"><img src="assets/icons/check.svg" width="16" height="16" alt="✓"><span data-i18n="plans.trial_f1">2 análisis de PDF</span></li>
+          <li class="feature-item"><img src="assets/icons/check.svg" width="16" height="16" alt="✓"><span data-i18n="plans.trial_f2">1 set de preguntas</span></li>
+          <li class="feature-item"><img src="assets/icons/check.svg" width="16" height="16" alt="✓"><span data-i18n="plans.trial_f3">Resúmenes y mindmaps</span></li>
+          <li class="feature-item"><img src="assets/icons/check.svg" width="16" height="16" alt="✓"><span data-i18n="plans.trial_f4">Sin tarjeta de crédito</span></li>
+        </ul>
+        <a href="/signup?trial=true" class="btn btn-secondary" data-i18n="plans.trial_cta">Empezar gratis</a>
+      </div>
+
+      <!-- Básico -->
+      <div class="pricing-card">
+        <p class="pricing-card__name" data-i18n="plans.basic_name">Básico</p>
+        <div class="pricing-card__price">
+          <span class="pricing-card__amount" data-price-plan="basic" data-price-display="amount" data-i18n="plans.basic_price">€8</span>
+          <span class="pricing-card__period" data-i18n="plans.basic_period">/mes</span>
+        </div>
+        <p class="pricing-card__desc" data-i18n="plans.basic_desc">Para el estudiante que necesita lo esencial.</p>
+        <ul class="pricing-card__features">
+          <li class="feature-item"><img src="assets/icons/check.svg" width="16" height="16" alt="✓"><span data-i18n="plans.basic_f1">5 análisis de PDF/mes</span></li>
+          <li class="feature-item"><img src="assets/icons/check.svg" width="16" height="16" alt="✓"><span data-i18n="plans.basic_f2">Resúmenes y mindmaps</span></li>
+          <li class="feature-item"><img src="assets/icons/check.svg" width="16" height="16" alt="✓"><span data-i18n="plans.basic_f3">Plan de estudio</span></li>
+          <li class="feature-item disabled"><img src="assets/icons/x.svg" width="16" height="16" alt="✗"><span data-i18n="plans.basic_f4">Sin sets de preguntas</span></li>
+          <li class="feature-item"><img src="assets/icons/check.svg" width="16" height="16" alt="✓"><span data-i18n="plans.basic_f5">Soporte por email</span></li>
+        </ul>
+        <button class="btn btn-secondary" data-action="select-plan" data-plan="basic" data-cycle="monthly" data-i18n="plans.basic_cta">Elegir Básico</button>
+      </div>
+
+      <!-- Plus -->
+      <div class="pricing-card">
+        <p class="pricing-card__name" data-i18n="plans.plus_name">Plus</p>
+        <div class="pricing-card__price">
+          <span class="pricing-card__amount" data-price-plan="plus" data-price-display="amount" data-i18n="plans.plus_price">€15</span>
+          <span class="pricing-card__period" data-i18n="plans.plus_period">/mes</span>
+        </div>
+        <p class="pricing-card__desc" data-i18n="plans.plus_desc">Para el estudiante regular con varias materias.</p>
+        <ul class="pricing-card__features">
+          <li class="feature-item"><img src="assets/icons/check.svg" width="16" height="16" alt="✓"><span data-i18n="plans.plus_f1">8 análisis de PDF/mes</span></li>
+          <li class="feature-item"><img src="assets/icons/check.svg" width="16" height="16" alt="✓"><span data-i18n="plans.plus_f2">3 sets de preguntas/mes</span></li>
+          <li class="feature-item"><img src="assets/icons/check.svg" width="16" height="16" alt="✓"><span data-i18n="plans.plus_f3">Resúmenes, mindmaps y flashcards</span></li>
+          <li class="feature-item"><img src="assets/icons/check.svg" width="16" height="16" alt="✓"><span data-i18n="plans.plus_f4">Plan de estudio completo</span></li>
+          <li class="feature-item"><img src="assets/icons/check.svg" width="16" height="16" alt="✓"><span data-i18n="plans.plus_f5">Soporte prioritario</span></li>
+        </ul>
+        <button class="btn btn-secondary" data-action="select-plan" data-plan="plus" data-cycle="monthly" data-i18n="plans.plus_cta">Elegir Plus</button>
+      </div>
+
+      <!-- Pro ⭐ -->
+      <div class="pricing-card pricing-card--featured">
+        <span class="featured-badge" data-i18n="plans.pro_badge">MÁS ELEGIDO PARA FINALES</span>
+        <p class="pricing-card__name" data-i18n="plans.pro_name">Pro</p>
+        <div class="pricing-card__price">
+          <span class="pricing-card__amount" data-price-plan="pro" data-price-display="amount" data-i18n="plans.pro_price">€22</span>
+          <span class="pricing-card__period" data-i18n="plans.pro_period">/mes</span>
+        </div>
+        <p class="pricing-card__desc" data-i18n="plans.pro_desc">El más completo para época de exámenes finales.</p>
+        <ul class="pricing-card__features">
+          <li class="feature-item"><img src="assets/icons/check.svg" width="16" height="16" alt="✓"><span data-i18n="plans.pro_f1">15 análisis de PDF/mes</span></li>
+          <li class="feature-item"><img src="assets/icons/check.svg" width="16" height="16" alt="✓"><span data-i18n="plans.pro_f2">8 sets de preguntas/mes</span></li>
+          <li class="feature-item"><img src="assets/icons/check.svg" width="16" height="16" alt="✓"><span data-i18n="plans.pro_f3">Todo el material de repaso</span></li>
+          <li class="feature-item"><img src="assets/icons/check.svg" width="16" height="16" alt="✓"><span data-i18n="plans.pro_f4">Plan de estudio avanzado</span></li>
+          <li class="feature-item"><img src="assets/icons/check.svg" width="16" height="16" alt="✓"><span data-i18n="plans.pro_f5">Exportación de contenido</span></li>
+          <li class="feature-item"><img src="assets/icons/check.svg" width="16" height="16" alt="✓"><span data-i18n="plans.pro_f6">Soporte prioritario 24h</span></li>
+        </ul>
+        <button class="btn btn-primary" data-action="select-plan" data-plan="pro" data-cycle="monthly" data-i18n="plans.pro_cta">Elegir Pro</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Tabla comparativa -->
+<section style="background:var(--bg);padding-block:var(--sp-20)">
+  <div class="container">
+    <h2 style="font-family:var(--font-serif);font-weight:400;text-align:center;margin-bottom:var(--sp-10)">Comparar planes</h2>
+    <div class="table-scroll">
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th data-i18n="pricing_page.table_feature">Característica</th>
+            <th data-i18n="pricing_page.table_trial">Trial</th>
+            <th data-i18n="pricing_page.table_basic">Básico</th>
+            <th data-i18n="pricing_page.table_plus">Plus</th>
+            <th class="col-featured" data-i18n="pricing_page.table_pro">Pro</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-i18n="pricing_page.row_pdfs">Análisis de PDFs/mes</td>
+            <td data-i18n="pricing_page.val_trial_pdfs">2 (único)</td>
+            <td data-i18n="pricing_page.val_basic_pdfs">5</td>
+            <td data-i18n="pricing_page.val_plus_pdfs">8</td>
+            <td class="col-featured" data-i18n="pricing_page.val_pro_pdfs">15</td>
+          </tr>
+          <tr>
+            <td data-i18n="pricing_page.row_questions">Sets de preguntas/mes</td>
+            <td data-i18n="pricing_page.val_trial_q">1 (único)</td>
+            <td><img src="assets/icons/x.svg" width="16" height="16" alt="No"></td>
+            <td data-i18n="pricing_page.val_plus_q">3</td>
+            <td class="col-featured" data-i18n="pricing_page.val_pro_q">8</td>
+          </tr>
+          <tr>
+            <td data-i18n="pricing_page.row_summaries">Resúmenes</td>
+            <td><img src="assets/icons/check.svg" width="16" height="16" alt="Sí"></td>
+            <td><img src="assets/icons/check.svg" width="16" height="16" alt="Sí"></td>
+            <td><img src="assets/icons/check.svg" width="16" height="16" alt="Sí"></td>
+            <td class="col-featured"><img src="assets/icons/check.svg" width="16" height="16" alt="Sí"></td>
+          </tr>
+          <tr>
+            <td data-i18n="pricing_page.row_mindmaps">Mindmaps</td>
+            <td><img src="assets/icons/check.svg" width="16" height="16" alt="Sí"></td>
+            <td><img src="assets/icons/check.svg" width="16" height="16" alt="Sí"></td>
+            <td><img src="assets/icons/check.svg" width="16" height="16" alt="Sí"></td>
+            <td class="col-featured"><img src="assets/icons/check.svg" width="16" height="16" alt="Sí"></td>
+          </tr>
+          <tr>
+            <td data-i18n="pricing_page.row_flashcards">Flashcards</td>
+            <td><img src="assets/icons/x.svg" width="16" height="16" alt="No"></td>
+            <td><img src="assets/icons/x.svg" width="16" height="16" alt="No"></td>
+            <td><img src="assets/icons/check.svg" width="16" height="16" alt="Sí"></td>
+            <td class="col-featured"><img src="assets/icons/check.svg" width="16" height="16" alt="Sí"></td>
+          </tr>
+          <tr>
+            <td data-i18n="pricing_page.row_plan">Plan de estudio</td>
+            <td><img src="assets/icons/check.svg" width="16" height="16" alt="Sí"></td>
+            <td><img src="assets/icons/check.svg" width="16" height="16" alt="Sí"></td>
+            <td><img src="assets/icons/check.svg" width="16" height="16" alt="Sí"></td>
+            <td class="col-featured"><img src="assets/icons/check.svg" width="16" height="16" alt="Sí"></td>
+          </tr>
+          <tr>
+            <td data-i18n="pricing_page.row_export">Exportación</td>
+            <td><img src="assets/icons/x.svg" width="16" height="16" alt="No"></td>
+            <td><img src="assets/icons/x.svg" width="16" height="16" alt="No"></td>
+            <td><img src="assets/icons/check.svg" width="16" height="16" alt="Sí"></td>
+            <td class="col-featured"><img src="assets/icons/check.svg" width="16" height="16" alt="Sí"></td>
+          </tr>
+          <tr>
+            <td data-i18n="pricing_page.row_support">Soporte</td>
+            <td>Email</td>
+            <td data-i18n="pricing_page.val_email">Email</td>
+            <td data-i18n="pricing_page.val_priority">Prioritario</td>
+            <td class="col-featured" data-i18n="pricing_page.val_priority_24">Prioritario 24h</td>
+          </tr>
+          <tr>
+            <td data-i18n="pricing_page.row_gdpr">GDPR compliant</td>
+            <td><img src="assets/icons/check.svg" width="16" height="16" alt="Sí"></td>
+            <td><img src="assets/icons/check.svg" width="16" height="16" alt="Sí"></td>
+            <td><img src="assets/icons/check.svg" width="16" height="16" alt="Sí"></td>
+            <td class="col-featured"><img src="assets/icons/check.svg" width="16" height="16" alt="Sí"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- Créditos preview -->
+<section style="background:var(--accent-bg);padding-block:var(--sp-16)">
+  <div class="container" style="max-width:640px;text-align:center">
+    <h2 style="font-family:var(--font-serif);font-weight:400;margin-bottom:var(--sp-4)" data-i18n="pricing_page.credits_section_title">¿Te quedás sin créditos?</h2>
+    <p data-i18n="pricing_page.credits_section_desc">Comprá créditos extra que no expiran. Se suman a tu plan.</p>
+    <a href="credits.html" class="btn btn-dark" style="margin-top:var(--sp-6)" data-i18n="pricing_page.credits_link">Ver packs de créditos &rarr;</a>
+  </div>
+</section>
+
+<!-- FAQ Pricing -->
+<section style="background:var(--bg-alt);padding-block:var(--sp-20)">
+  <div class="container" style="max-width:720px">
+    <h2 style="font-family:var(--font-serif);font-weight:400;margin-bottom:var(--sp-8)" data-i18n="pricing_page.faq_title">Preguntas sobre los planes</h2>
+    <div class="faq-list">
+      <div class="faq-item"><button class="faq-question" aria-expanded="false"><span data-i18n="pricing_page.faq_q1">¿Puedo cambiar de plan en cualquier momento?</span><span class="faq-icon"><img src="assets/icons/plus.svg" width="12" height="12" alt=""></span></button><div class="faq-answer"><div class="faq-answer__inner" data-i18n="pricing_page.faq_a1">Sí. El cambio aplica al inicio del próximo período de facturación.</div></div></div>
+      <div class="faq-item"><button class="faq-question" aria-expanded="false"><span data-i18n="pricing_page.faq_q2">¿Cómo funcionan los créditos del plan?</span><span class="faq-icon"><img src="assets/icons/plus.svg" width="12" height="12" alt=""></span></button><div class="faq-answer"><div class="faq-answer__inner" data-i18n="pricing_page.faq_a2">Cada mes tus créditos se renuevan según tu plan.</div></div></div>
+      <div class="faq-item"><button class="faq-question" aria-expanded="false"><span data-i18n="pricing_page.faq_q3">¿El precio incluye IVA?</span><span class="faq-icon"><img src="assets/icons/plus.svg" width="12" height="12" alt=""></span></button><div class="faq-answer"><div class="faq-answer__inner" data-i18n="pricing_page.faq_a3">Para clientes en la UE se aplica el IVA del país correspondiente.</div></div></div>
+      <div class="faq-item"><button class="faq-question" aria-expanded="false"><span data-i18n="pricing_page.faq_q4">¿Puedo pagar con factura para mi empresa?</span><span class="faq-icon"><img src="assets/icons/plus.svg" width="12" height="12" alt=""></span></button><div class="faq-answer"><div class="faq-answer__inner" data-i18n="pricing_page.faq_a4">Sí. Escribinos a hello@studyos.app con los datos de tu empresa.</div></div></div>
+      <div class="faq-item"><button class="faq-question" aria-expanded="false"><span data-i18n="pricing_page.faq_q5">¿Cuál es la política de reembolso?</span><span class="faq-icon"><img src="assets/icons/plus.svg" width="12" height="12" alt=""></span></button><div class="faq-answer"><div class="faq-answer__inner" data-i18n="pricing_page.faq_a5">Reembolso completo dentro de los 7 días de iniciar un plan de pago.</div></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container" style="text-align:center;max-width:600px">
+    <h2><span data-i18n="cta_final.title">Tu próximo examen,</span><em data-i18n="cta_final.title_em"> resuelto.</em></h2>
+    <p data-i18n="cta_final.subtitle">Subí tu material hoy. En minutos tenés el plan.</p>
+    <a href="/signup?trial=true" class="btn btn-white btn-xl" data-i18n="plans.trial_cta">Empezar gratis</a>
+    <span class="trust-text" data-i18n="cta_final.trust">Sin tarjeta · Sin compromiso · Cancelás cuando querés</span>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand"><a href="/" class="site-logo">StudyOS</a><p data-i18n="footer.tagline">El sistema operativo de los que van a aprobar.</p><div class="footer-lang" style="margin-top:var(--sp-4)"><select data-lang-selector><option value="es">ES</option><option value="en">EN</option><option value="de">DE</option><option value="et">ET</option></select></div></div>
+      <div class="footer-col"><h4 data-i18n="footer.col_product">Producto</h4><ul><li><a href="index.html#features" data-i18n="footer.features">Características</a></li><li><a href="pricing.html" data-i18n="footer.pricing">Precios</a></li><li><a href="credits.html" data-i18n="footer.credits">Créditos</a></li></ul></div>
+      <div class="footer-col"><h4 data-i18n="footer.col_company">Empresa</h4><ul><li><a href="about.html" data-i18n="footer.about">Sobre nosotros</a></li><li><a href="contact.html" data-i18n="footer.contact">Contacto</a></li></ul></div>
+      <div class="footer-col"><h4 data-i18n="footer.col_legal">Legal</h4><ul><li><a href="privacy.html" data-i18n="footer.privacy">Privacidad</a></li><li><a href="terms.html" data-i18n="footer.terms">Términos</a></li><li><a href="cookies.html" data-i18n="footer.cookies">Cookies</a></li><li><a href="imprint.html" data-i18n="footer.imprint">Impressum</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><p class="footer-copy" data-i18n="footer.copy">© 2026 StudyOS OÜ · Tallinn, Estonia</p></div>
+  </div>
+</footer>
+
+<div class="cookie-banner" role="dialog" aria-live="polite">
+  <p><span data-i18n="cookie_banner.text">Usamos cookies esenciales y, con tu consentimiento, analítica. Leé nuestra</span> <a href="cookies.html" data-i18n="cookie_banner.link">política de cookies</a>.</p>
+  <div class="cookie-banner__actions"><button class="btn btn-outline-light btn-sm" data-action="cookie-reject" data-i18n="cookie_banner.reject">Solo esenciales</button><button class="btn btn-white btn-sm" data-action="cookie-accept" data-i18n="cookie_banner.accept">Aceptar todo</button></div>
+</div>
+
+<div class="modal-overlay" id="soon-modal" role="dialog" aria-modal="true"><div class="modal"><h3 style="font-family:var(--font-serif);font-weight:400;font-size:1.5rem;margin-bottom:var(--sp-4)">Próximamente</h3><p style="color:var(--text-2);margin-bottom:var(--sp-6)">Los pagos estarán disponibles muy pronto.</p><div style="display:flex;gap:var(--sp-3);justify-content:center"><a href="/signup?trial=true" class="btn btn-primary">Probar gratis</a><button class="btn btn-secondary" data-action="close-modal">Cerrar</button></div></div></div>
+
+<script src="js/i18n.js"></script>
+<script src="js/nav.js"></script>
+<script src="js/faq.js"></script>
+<script src="js/stripe.js"></script>
+<script src="js/analytics.js"></script>
+<script src="js/pricing.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

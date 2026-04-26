@@ -1,0 +1,113 @@
+/* tokens.css — Design tokens: paleta, tipografía, spacing, radios, sombras
+ * Inspiración visual: Ride Out Amsterdam (rideout.amsterdam)
+ * Mood: premium editorial, cool silver base, gold accent, lavender service accent
+ */
+
+:root {
+
+  /* ─── BACKGROUNDS ──────────────────────────────────────────── */
+  --bg:          #DCDFE3;   /* Fondo principal — gris plata frío */
+  --bg-alt:      #E8EAED;   /* Variante ligeramente más clara */
+  --surface:     #F2F3F5;   /* Superficies / cards sobre --bg */
+  --surface-2:   #FFFFFF;   /* Cards elevadas, modales */
+  --dark:        #111111;   /* Fondos oscuros (nav mobile, CTA band) */
+  --white:       #FFFFFF;
+
+  /* ─── ACCENT CÁLIDO — CTA principal (dorado/champagne) ───── */
+  --accent:        #C5A24A;   /* Color CTA, botones primarios */
+  --accent-light:  #E4D09A;   /* Fondos suaves, highlights */
+  --accent-strong: #A08330;   /* Hover, énfasis */
+  --accent-bg:     #F5EDD6;   /* Fondo muy suave para secciones accent */
+
+  /* ─── ACCENT FRÍO — Secciones de features (lavanda) ────────── */
+  --lavender:        #9B8FD4;
+  --lavender-light:  #C4BDE8;
+  --lavender-strong: #7A6DBF;
+  --lavender-bg:     #ECEAF8;   /* Fondo sección features / servicio */
+
+  /* ─── BORDERS ──────────────────────────────────────────────── */
+  --border:        #C8CBD1;   /* Borde sutil */
+  --border-strong: #A0A4AC;   /* Borde marcado */
+
+  /* ─── TEXT ─────────────────────────────────────────────────── */
+  --text:   #111111;   /* Texto principal — near-black */
+  --text-2: #4A4D54;   /* Texto secundario */
+  --text-3: #828791;   /* Texto terciario, labels, placeholders */
+
+  /* ─── FUNCTIONAL ─────────────────────────────────────────── */
+  --success: #3DAA6E;
+  --warning: #E8A020;
+  --danger:  #D44F4F;
+  --info:    #4A8FCC;
+
+  /* ─── TIPOGRAFÍA ─────────────────────────────────────────── */
+  --font-sans:  'Rethink Sans', system-ui, -apple-system, sans-serif;
+  --font-serif: 'Instrument Serif', Georgia, serif;
+
+  /* Type scale */
+  --fs-xs:   12px;
+  --fs-sm:   14px;
+  --fs-base: 16px;
+  --fs-lg:   18px;
+  --fs-xl:   22px;
+  --fs-2xl:  28px;
+  --fs-3xl:  36px;
+  --fs-4xl:  48px;
+  --fs-5xl:  64px;
+  --fs-6xl:  80px;
+  --fs-7xl:  96px;
+
+  /* Line heights */
+  --lh-tight:   1.05;
+  --lh-snug:    1.25;
+  --lh-normal:  1.5;
+  --lh-relaxed: 1.7;
+
+  /* Letter spacing */
+  --ls-tight:  -0.02em;
+  --ls-normal:  0;
+  --ls-wide:    0.05em;
+  --ls-wider:   0.12em;
+  --ls-widest:  0.18em;
+
+  /* ─── SPACING ────────────────────────────────────────────── */
+  --sp-1:   4px;
+  --sp-2:   8px;
+  --sp-3:  12px;
+  --sp-4:  16px;
+  --sp-5:  20px;
+  --sp-6:  24px;
+  --sp-8:  32px;
+  --sp-10: 40px;
+  --sp-12: 48px;
+  --sp-16: 64px;
+  --sp-20: 80px;
+  --sp-24: 96px;
+  --sp-32: 128px;
+
+  /* ─── BORDER RADIUS ──────────────────────────────────────── */
+  --r-sm:   4px;
+  --r-md:   8px;
+  --r-lg:  12px;
+  --r-xl:  20px;
+  --r-pill: 999px;
+
+  /* ─── SHADOWS ────────────────────────────────────────────── */
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.08), 0 2px 6px rgba(0,0,0,0.04);
+  --shadow-lg: 0 12px 40px rgba(0,0,0,0.10), 0 4px 12px rgba(0,0,0,0.06);
+
+  /* ─── TRANSITIONS ────────────────────────────────────────── */
+  --ease:      cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --ease-out:  cubic-bezier(0.16, 1, 0.3, 1);
+  --duration:  200ms;
+  --duration-slow: 350ms;
+
+  /* ─── LAYOUT ─────────────────────────────────────────────── */
+  --container-max: 1200px;
+  --container-wide: 1400px;
+  --container-narrow: 760px;
+  --header-h: 68px;
+  --section-py: var(--sp-24);
+
+}

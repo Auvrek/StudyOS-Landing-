@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto — StudyOS</title>
+  <meta name="description" content="¿Tenés preguntas? Escribinos, te respondemos en menos de 24 horas.">
+  <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400;500;600;700;800&family=Instrument+Serif:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/sections.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script>window.__STUDYOS_PAGE__ = 'contact';</script>
+</head>
+<body>
+
+<header class="site-header"><div class="container"><a href="/" class="site-logo">StudyOS</a><nav class="nav-links"><a href="index.html#features" data-i18n="nav.features">Características</a><a href="pricing.html" data-i18n="nav.pricing">Precios</a><a href="about.html" data-i18n="nav.about">Sobre nosotros</a><a href="contact.html" data-i18n="nav.faq">Contacto</a></nav><div class="nav-actions"><div class="lang-selector"><select data-lang-selector><option value="es">ES</option><option value="en">EN</option><option value="de">DE</option><option value="et">ET</option></select></div><a href="/login" class="btn btn-nav-ghost" data-i18n="nav.login">Iniciar sesión</a><a href="pricing.html#trial" class="btn btn-nav" data-i18n="nav.cta">Empezar gratis</a></div><button class="nav-hamburger" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button></div></header>
+<div class="nav-drawer" id="nav-drawer"><div class="nav-drawer__backdrop"></div><div class="nav-drawer__panel"><button class="nav-drawer__close btn"><img src="assets/icons/close.svg" width="16" height="16" alt=""></button><nav class="nav-drawer__links"><a href="index.html">Inicio</a><a href="pricing.html" data-i18n="nav.pricing">Precios</a><a href="about.html" data-i18n="nav.about">Sobre nosotros</a><a href="contact.html">Contacto</a></nav><div style="display:flex;flex-direction:column;gap:var(--sp-3)"><a href="pricing.html#trial" class="btn btn-primary" data-i18n="nav.cta">Empezar gratis</a></div></div></div>
+
+<main>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="label" data-i18n="contact_page.hero_label">CONTACTO</span>
+    <h1 data-i18n="contact_page.hero_title">Hablemos.</h1>
+    <p class="page-hero__subtitle" data-i18n="contact_page.hero_subtitle">¿Preguntas, feedback o simplemente querés saber más? Respondemos en menos de 24 horas hábiles.</p>
+  </div>
+</section>
+
+<section style="background:var(--bg-alt);padding-block:var(--sp-12) var(--sp-20)">
+  <div class="container">
+    <div class="contact-layout">
+      <!-- Formulario -->
+      <div>
+        <!-- TODO: conectar a Netlify Forms (agregar netlify netlify-honeypot="bot-field" al form) -->
+        <!-- O a Supabase con una Netlify Function serverless -->
+        <form class="contact-form" action="#" method="POST" novalidate>
+          <div class="form-group">
+            <label class="form-label" for="contact-name" data-i18n="contact_page.form_name">Nombre</label>
+            <input type="text" id="contact-name" name="name" class="form-input" required
+              data-i18n-attr="placeholder:contact_page.form_name_ph">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="contact-email" data-i18n="contact_page.form_email">Email</label>
+            <input type="email" id="contact-email" name="email" class="form-input" required
+              data-i18n-attr="placeholder:contact_page.form_email_ph">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="contact-subject" data-i18n="contact_page.form_subject">Asunto</label>
+            <select id="contact-subject" name="subject" class="form-input form-select">
+              <option value="" data-i18n="contact_page.form_subject_opt1">Pregunta sobre la plataforma</option>
+              <option value="tech" data-i18n="contact_page.form_subject_opt2">Problema técnico</option>
+              <option value="billing" data-i18n="contact_page.form_subject_opt3">Facturación y pagos</option>
+              <option value="feedback" data-i18n="contact_page.form_subject_opt4">Feedback</option>
+              <option value="other" data-i18n="contact_page.form_subject_opt5">Otro</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="contact-message" data-i18n="contact_page.form_message">Mensaje</label>
+            <textarea id="contact-message" name="message" class="form-textarea" required
+              data-i18n-attr="placeholder:contact_page.form_message_ph"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg" data-i18n="contact_page.form_cta">Enviar mensaje</button>
+          <p style="font-size:var(--fs-xs);color:var(--text-3);margin-top:var(--sp-3)" data-i18n="contact_page.form_privacy">Al enviar aceptás nuestra política de privacidad.</p>
+        </form>
+      </div>
+
+      <!-- Info de contacto -->
+      <div class="contact-info">
+        <h3 data-i18n="contact_page.info_title">También podés contactarnos en:</h3>
+
+        <div class="contact-info-item">
+          <span class="label" data-i18n="contact_page.info_email_label">EMAIL</span>
+          <a href="mailto:hello@studyos.app">hello@studyos.app</a>
+        </div>
+
+        <div class="contact-info-item">
+          <span class="label" data-i18n="contact_page.info_address_label">DIRECCIÓN LEGAL</span>
+          <address style="font-style:normal;color:var(--text-2);font-size:var(--fs-sm);line-height:var(--lh-relaxed)" data-i18n="contact_page.info_address">
+            StudyOS OÜ<br>
+            Harju maakond, Tallinn<br>
+            Kesklinna linnaosa, Viru väljak 2<br>
+            10111 Estonia
+          </address>
+        </div>
+
+        <div class="contact-info-item">
+          <p style="font-size:var(--fs-sm);color:var(--text-3)" data-i18n="contact_page.info_response">Respondemos en menos de 24 horas hábiles.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer"><div class="container"><div class="footer-grid"><div class="footer-brand"><a href="/" class="site-logo">StudyOS</a><p data-i18n="footer.tagline">El sistema operativo de los que van a aprobar.</p></div><div class="footer-col"><h4 data-i18n="footer.col_product">Producto</h4><ul><li><a href="pricing.html" data-i18n="footer.pricing">Precios</a></li><li><a href="credits.html" data-i18n="footer.credits">Créditos</a></li></ul></div><div class="footer-col"><h4 data-i18n="footer.col_company">Empresa</h4><ul><li><a href="about.html" data-i18n="footer.about">Sobre nosotros</a></li><li><a href="contact.html" data-i18n="footer.contact">Contacto</a></li></ul></div><div class="footer-col"><h4 data-i18n="footer.col_legal">Legal</h4><ul><li><a href="privacy.html" data-i18n="footer.privacy">Privacidad</a></li><li><a href="terms.html" data-i18n="footer.terms">Términos</a></li><li><a href="imprint.html" data-i18n="footer.imprint">Impressum</a></li></ul></div></div><div class="footer-bottom"><p class="footer-copy" data-i18n="footer.copy">© 2026 StudyOS OÜ · Tallinn, Estonia</p></div></div></footer>
+
+<div class="cookie-banner" role="dialog" aria-live="polite"><p><span data-i18n="cookie_banner.text">Usamos cookies esenciales y, con tu consentimiento, analítica. Leé nuestra</span> <a href="cookies.html" data-i18n="cookie_banner.link">política de cookies</a>.</p><div class="cookie-banner__actions"><button class="btn btn-outline-light btn-sm" data-action="cookie-reject" data-i18n="cookie_banner.reject">Solo esenciales</button><button class="btn btn-white btn-sm" data-action="cookie-accept" data-i18n="cookie_banner.accept">Aceptar todo</button></div></div>
+
+<script src="js/i18n.js"></script><script src="js/nav.js"></script><script src="js/analytics.js"></script><script src="js/main.js"></script>
+</body>
+</html>

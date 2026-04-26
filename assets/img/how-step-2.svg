@@ -1,0 +1,26 @@
+<svg viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg" width="160" height="160">
+  <!-- Step 2: AI processes your material -->
+  <circle cx="80" cy="80" r="72" fill="#F5EDD6"/>
+  <!-- AI chip -->
+  <rect x="48" y="68" width="64" height="48" rx="8" fill="white" stroke="#C5A24A" stroke-width="1.5"/>
+  <!-- Chip grid lines -->
+  <rect x="56" y="76" width="48" height="32" rx="4" fill="#F5EDD6"/>
+  <!-- Processing dots in grid -->
+  <circle cx="66" cy="86" r="3" fill="#C5A24A"/>
+  <circle cx="80" cy="86" r="3" fill="#C5A24A" opacity="0.6"/>
+  <circle cx="94" cy="86" r="3" fill="#C5A24A" opacity="0.3"/>
+  <circle cx="66" cy="98" r="3" fill="#C5A24A" opacity="0.3"/>
+  <circle cx="80" cy="98" r="3" fill="#C5A24A"/>
+  <circle cx="94" cy="98" r="3" fill="#C5A24A" opacity="0.6"/>
+  <!-- Connector pins top -->
+  <rect x="60" y="62" width="6" height="8" rx="2" fill="#C5A24A" opacity="0.5"/>
+  <rect x="74" y="62" width="6" height="8" rx="2" fill="#C5A24A" opacity="0.5"/>
+  <rect x="88" y="62" width="6" height="8" rx="2" fill="#C5A24A" opacity="0.5"/>
+  <!-- Connector pins bottom -->
+  <rect x="60" y="114" width="6" height="8" rx="2" fill="#C5A24A" opacity="0.5"/>
+  <rect x="74" y="114" width="6" height="8" rx="2" fill="#C5A24A" opacity="0.5"/>
+  <rect x="88" y="114" width="6" height="8" rx="2" fill="#C5A24A" opacity="0.5"/>
+  <!-- Step number -->
+  <circle cx="80" cy="36" r="16" fill="#C5A24A"/>
+  <text x="80" y="41" font-family="'Rethink Sans',sans-serif" font-size="14" font-weight="800" fill="white" text-anchor="middle">2</text>
+</svg>
