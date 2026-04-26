@@ -6,33 +6,33 @@
 :root {
 
   /* ─── BACKGROUNDS ──────────────────────────────────────────── */
-  --bg:          #DCDFE3;   /* Fondo principal — gris plata frío */
-  --bg-alt:      #E8EAED;   /* Variante ligeramente más clara */
-  --surface:     #F2F3F5;   /* Superficies / cards sobre --bg */
-  --surface-2:   #FFFFFF;   /* Cards elevadas, modales */
-  --dark:        #111111;   /* Fondos oscuros (nav mobile, CTA band) */
+  --bg:          #17161C;   /* Fondo principal — carbón oscuro (Ride Out) */
+  --bg-alt:      #1D1C25;   /* Variante sección alternada */
+  --surface:     #252232;   /* Superficies / cards sobre --bg */
+  --surface-2:   #2E2B3E;   /* Cards elevadas, modales */
+  --dark:        #0D0C12;   /* Fondos extra-oscuros */
   --white:       #FFFFFF;
 
   /* ─── ACCENT CÁLIDO — CTA principal (dorado/champagne) ───── */
   --accent:        #C5A24A;   /* Color CTA, botones primarios */
-  --accent-light:  #E4D09A;   /* Fondos suaves, highlights */
-  --accent-strong: #A08330;   /* Hover, énfasis */
-  --accent-bg:     #F5EDD6;   /* Fondo muy suave para secciones accent */
+  --accent-light:  #D4B868;   /* Highlights sobre fondo oscuro */
+  --accent-strong: #DBC070;   /* Hover sobre fondo oscuro */
+  --accent-bg:     #1A170A;   /* Fondo oscuro con tinte dorado */
 
   /* ─── ACCENT FRÍO — Secciones de features (lavanda) ────────── */
   --lavender:        #9B8FD4;
-  --lavender-light:  #C4BDE8;
-  --lavender-strong: #7A6DBF;
-  --lavender-bg:     #ECEAF8;   /* Fondo sección features / servicio */
+  --lavender-light:  #B8AFDF;
+  --lavender-strong: #B3A8E8;
+  --lavender-bg:     #1B1929;   /* Fondo oscuro con tinte lavanda */
 
   /* ─── BORDERS ──────────────────────────────────────────────── */
-  --border:        #C8CBD1;   /* Borde sutil */
-  --border-strong: #A0A4AC;   /* Borde marcado */
+  --border:        #2C2A3A;   /* Borde sutil oscuro */
+  --border-strong: #3E3C52;   /* Borde marcado oscuro */
 
   /* ─── TEXT ─────────────────────────────────────────────────── */
-  --text:   #111111;   /* Texto principal — near-black */
-  --text-2: #4A4D54;   /* Texto secundario */
-  --text-3: #828791;   /* Texto terciario, labels, placeholders */
+  --text:   #E9ECEE;   /* Texto principal — gris claro (Ride Out) */
+  --text-2: #A8AEBF;   /* Texto secundario */
+  --text-3: #6A6E82;   /* Texto terciario, labels, placeholders */
 
   /* ─── FUNCTIONAL ─────────────────────────────────────────── */
   --success: #3DAA6E;

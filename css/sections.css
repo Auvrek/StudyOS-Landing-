@@ -11,15 +11,26 @@
   overflow: hidden;
 }
 
-/* Gradiente dorado esquina — inspirado en Ride Out */
+/* Gradiente dorado — más visible sobre fondo oscuro */
 .hero::before {
   content: '';
   position: absolute;
-  top: -80px;
-  left: -80px;
-  width: 560px;
-  height: 460px;
-  background: radial-gradient(ellipse at 20% 20%, rgba(197,162,74,0.18) 0%, transparent 65%);
+  top: -120px;
+  left: -120px;
+  width: 700px;
+  height: 560px;
+  background: radial-gradient(ellipse at 20% 20%, rgba(197,162,74,0.22) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  bottom: -80px;
+  right: -80px;
+  width: 500px;
+  height: 400px;
+  background: radial-gradient(ellipse at 80% 80%, rgba(155,143,212,0.12) 0%, transparent 60%);
   pointer-events: none;
 }
 
