@@ -49,8 +49,8 @@ section {
 }
 
 .site-header.scrolled {
-  box-shadow: 0 1px 0 var(--border), 0 8px 32px rgba(0,0,0,0.4);
-  background: rgba(23,22,28,0.95);
+  box-shadow: 0 1px 0 var(--border), 0 4px 24px rgba(0,0,0,0.06);
+  background: rgba(249,248,246,0.92);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
 }
@@ -239,6 +239,30 @@ main {
   background: var(--dark);
   color: rgba(255,255,255,0.85);
   padding-block: var(--sp-16) var(--sp-8);
+  position: relative;
+  overflow: hidden;
+}
+
+.site-footer::before {
+  content: 'StudyOS';
+  position: absolute;
+  bottom: -0.15em;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 18vw;
+  font-weight: 800;
+  letter-spacing: -0.05em;
+  color: #ffffff;
+  opacity: 0.05;
+  pointer-events: none;
+  white-space: nowrap;
+  line-height: 1;
+  z-index: 0;
+}
+
+.site-footer .container {
+  position: relative;
+  z-index: 1;
 }
 
 .footer-grid {

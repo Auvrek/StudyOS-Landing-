@@ -11,26 +11,26 @@
   overflow: hidden;
 }
 
-/* Gradiente dorado — más visible sobre fondo oscuro */
+/* Gradiente sutil sobre fondo claro */
 .hero::before {
   content: '';
   position: absolute;
-  top: -120px;
-  left: -120px;
-  width: 700px;
-  height: 560px;
-  background: radial-gradient(ellipse at 20% 20%, rgba(197,162,74,0.22) 0%, transparent 60%);
+  top: -100px;
+  left: -100px;
+  width: 600px;
+  height: 480px;
+  background: radial-gradient(ellipse at 20% 20%, rgba(197,162,74,0.10) 0%, transparent 65%);
   pointer-events: none;
 }
 
 .hero::after {
   content: '';
   position: absolute;
-  bottom: -80px;
-  right: -80px;
-  width: 500px;
-  height: 400px;
-  background: radial-gradient(ellipse at 80% 80%, rgba(155,143,212,0.12) 0%, transparent 60%);
+  bottom: -60px;
+  right: -60px;
+  width: 420px;
+  height: 340px;
+  background: radial-gradient(ellipse at 80% 80%, rgba(155,143,212,0.08) 0%, transparent 65%);
   pointer-events: none;
 }
 
