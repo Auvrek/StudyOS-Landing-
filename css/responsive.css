@@ -85,7 +85,7 @@
     min-height: auto;
   }
 
-  .hero__title { font-size: clamp(2rem, 8vw, 2.75rem); }
+  .hero__title { font-size: clamp(2.25rem, 8vw, 3.25rem); line-height: 0.9; }
   .hero__subtitle { font-size: var(--fs-base); }
 
   .hero__actions {
@@ -173,7 +173,7 @@
 /* ─── SMALL MOBILE (≤ 480px) ─────────────────────────────────── */
 @media (max-width: 480px) {
 
-  .hero__title { font-size: 2rem; }
+  .hero__title { font-size: 2.25rem; line-height: 0.9; }
 
   .outcomes-grid { grid-template-columns: 1fr 1fr; gap: var(--sp-4); }
   .outcome-number { font-size: 2.5rem; }
@@ -188,7 +188,7 @@
 
 /* ─── WIDE (≥ 1440px) ────────────────────────────────────────── */
 @media (min-width: 1440px) {
-  .hero__title { font-size: 80px; }
+  .hero__title { font-size: 104px; }
 }
 
 /* ─── REDUCED MOTION ─────────────────────────────────────────── */

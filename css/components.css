@@ -465,12 +465,17 @@
 }
 
 .section-header h2 {
-  font-family: var(--font-serif);
-  font-weight: 400;
-  font-size: clamp(2rem, 4vw, var(--fs-3xl));
-  letter-spacing: var(--ls-tight);
-  line-height: var(--lh-tight);
+  font-family: var(--font-sans);
+  font-weight: 300;
+  font-size: clamp(2rem, 4.5vw, var(--fs-4xl));
+  letter-spacing: -0.04em;
+  line-height: 0.92;
   margin-bottom: var(--sp-4);
+}
+
+.section-header h2 em {
+  font-family: var(--font-serif);
+  font-style: italic;
 }
 
 .section-header p {

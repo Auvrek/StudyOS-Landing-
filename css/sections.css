@@ -47,17 +47,19 @@
 }
 
 .hero__title {
-  font-family: var(--font-serif);
-  font-size: clamp(2.5rem, 5.5vw, 72px);
-  font-weight: 400;
-  line-height: var(--lh-tight);
-  letter-spacing: var(--ls-tight);
+  font-family: var(--font-sans);
+  font-size: clamp(3rem, 7vw, 96px);
+  font-weight: 300;
+  line-height: 0.88;
+  letter-spacing: -0.04em;
   color: var(--text);
 }
 
 .hero__title em {
+  font-family: var(--font-serif);
   font-style: italic;
   color: var(--accent);
+  font-weight: 400;
 }
 
 .hero__subtitle {
@@ -224,9 +226,9 @@
 }
 
 .how-step__number {
-  font-family: var(--font-serif);
-  font-size: var(--fs-7xl);
-  font-weight: 400;
+  font-family: var(--font-sans);
+  font-size: clamp(4rem, 8vw, var(--fs-7xl));
+  font-weight: 300;
   color: var(--accent);
   line-height: 0.85;
   display: block;
@@ -329,9 +331,9 @@
 }
 
 .outcome-number {
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   font-size: clamp(3rem, 5vw, var(--fs-7xl));
-  font-weight: 400;
+  font-weight: 300;
   color: var(--accent);
   line-height: 0.9;
   letter-spacing: -0.02em;
@@ -354,11 +356,14 @@
 
 .mockup-section h2 {
   color: var(--white);
-  font-family: var(--font-serif);
-  font-weight: 400;
+  font-family: var(--font-sans);
+  font-weight: 300;
+  letter-spacing: -0.04em;
+  line-height: 0.9;
 }
 
 .mockup-section h2 em {
+  font-family: var(--font-serif);
   font-style: italic;
   color: var(--accent-light);
 }
@@ -432,9 +437,10 @@
 .testimonial-card:hover { box-shadow: var(--shadow-md); }
 
 .testimonial-quote {
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   font-style: italic;
   font-size: var(--fs-lg);
+  font-weight: 300;
   color: var(--text);
   line-height: var(--lh-relaxed);
   flex: 1;
@@ -487,14 +493,17 @@
 }
 
 .cta-band h2 {
-  font-family: var(--font-serif);
-  font-weight: 400;
-  font-size: clamp(2.25rem, 5vw, var(--fs-5xl));
+  font-family: var(--font-sans);
+  font-weight: 300;
+  font-size: clamp(2.5rem, 5.5vw, var(--fs-5xl));
+  letter-spacing: -0.04em;
+  line-height: 0.92;
   color: var(--white);
   margin-bottom: var(--sp-4);
 }
 
 .cta-band h2 em {
+  font-family: var(--font-serif);
   font-style: italic;
 }
 
@@ -535,16 +544,17 @@
 }
 
 .page-hero h1 {
-  font-family: var(--font-serif);
-  font-weight: 400;
-  font-size: clamp(2.5rem, 5vw, var(--fs-5xl));
-  letter-spacing: var(--ls-tight);
-  line-height: var(--lh-tight);
-  max-width: 14ch;
+  font-family: var(--font-sans);
+  font-weight: 300;
+  font-size: clamp(2.75rem, 6vw, var(--fs-5xl));
+  letter-spacing: -0.04em;
+  line-height: 0.9;
+  max-width: 16ch;
   margin-bottom: var(--sp-4);
 }
 
 .page-hero h1 em {
+  font-family: var(--font-serif);
   font-style: italic;
   color: var(--accent);
 }
@@ -654,9 +664,10 @@
 }
 
 .credit-card__amount {
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   font-size: var(--fs-4xl);
-  font-weight: 400;
+  font-weight: 300;
+  letter-spacing: -0.04em;
   color: var(--text);
   line-height: 0.9;
 }
@@ -762,10 +773,10 @@
 }
 
 .error-page h1 {
-  font-family: var(--font-serif);
-  font-style: italic;
-  font-weight: 400;
+  font-family: var(--font-sans);
+  font-weight: 300;
   font-size: clamp(2rem, 5vw, var(--fs-4xl));
+  letter-spacing: -0.03em;
   color: var(--text);
   margin-bottom: var(--sp-6);
   max-width: 18ch;
@@ -784,13 +795,16 @@
 }
 
 .about-mission h2 {
-  font-family: var(--font-serif);
-  font-weight: 400;
-  font-size: clamp(1.75rem, 3.5vw, var(--fs-3xl));
+  font-family: var(--font-sans);
+  font-weight: 300;
+  font-size: clamp(2rem, 4vw, var(--fs-4xl));
+  letter-spacing: -0.04em;
+  line-height: 0.92;
   margin-bottom: var(--sp-5);
 }
 
 .about-mission h2 em {
+  font-family: var(--font-serif);
   font-style: italic;
   color: var(--lavender);
 }
@@ -952,8 +966,10 @@
 }
 
 .calc-result strong {
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   font-size: var(--fs-3xl);
+  font-weight: 300;
+  letter-spacing: -0.04em;
   color: var(--accent-strong);
 }
 
@@ -966,9 +982,9 @@
 }
 
 .error-page__number {
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   font-size: clamp(6rem, 20vw, 10rem);
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1;
   color: var(--accent);
   opacity: 0.3;
